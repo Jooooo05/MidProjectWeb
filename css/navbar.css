@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid; */
+}
+
+.header{
+    height: 90px;
+    background-color: #FFF7E9;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar{
+    width: 46%;
+    float: left;
+    padding: 10px;
+    /* position: fixed; */
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #3C2317;
+}
+
+.navbar ul li a:hover{
+    color: #2A0944;
+    border-bottom: 3px solid #410b6a;
+    transition: .5s;
+}
+
+
+/* dropdown */
+ul.dropdown{
+    width: 300px;
+    height: 400px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: #FFF7E9;
+}
+
+.Dropdown:hover .dropdown{
+    display: block;
+}
+
+ul.dropdown li {
+    display: block;
+    margin: 10px;
+}
+
+ul.dropdown li a{
+    font-size: 12px;
+}
+
+/* logo */
+.logo img{
+    width: 5%;
+    float: left;
+    cursor: pointer;
+}
+/* logo */
+
+
+/* other */
+.other{
+    margin-top: 15px;
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.other ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    text-align: end;
+}
+
+.other ul li a{
+    text-decoration: none;
+}
+
+
+.location:hover{
+    text-decoration: underline;    
+}
+
+.signUp{
+    background-color: #DD5353;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+
+li.signUp a{
+    color: whitesmoke;
+}
+
+.signUp:hover{
+    background-color: #B73E3E;
+}
+
+.basket{
+    background-color: #3C2317;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+
+li.basket a{
+    color: whitesmoke   ;
+}
+/* other */
